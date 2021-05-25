@@ -1,0 +1,9 @@
+git status (Muestra el estado de los archivos dentro de la carpeta) 
+git add historia.txt (Agrega el archivo o modificaciones al sistema de versiones) 
+git add . (Agrega los archivos o modificaciones de estos al sistema de versiones)
+git commit -m 'comentario' (Agrega un comentario a las modificaciones realizadas, dejando rastro)
+git log (Muestra la historia de los archivos con sus commit y autores) 
+git config --global user.name 'Barandica' (Configura el autor de las versiones)
+git config --global user.email 'jbarandica26@gmail.com' (Configura el email del autor de las versiones)
+
+
