@@ -5,5 +5,7 @@ git commit -m 'comentario' (Agrega un comentario a las modificaciones realizadas
 git log (Muestra la historia de los archivos con sus commit y autores) 
 git config --global user.name 'Barandica' (Configura el autor de las versiones)
 git config --global user.email 'jbarandica26@gmail.com' (Configura el email del autor de las versiones)
-
-
+ESC + SHIFT + ZZ (Guarda y cierra el editor VIM)
+git show historia.txt (Muestra la lineas del archivo que han sido modificadas)
+git diff 4589bf11073bb72f73e9305dd4cff62afdabdba7 4589bf11073bb72f73e9305dd4cff62afdabdlsdj 
+	(Compara las modificaciones en esas dos versiones)
