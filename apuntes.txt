@@ -11,6 +11,7 @@ git log (Muestra la historia de los archivos con sus commit y autores)
 git config --global user.name 'Barandica' (Configura el autor de las versiones)
 
 git config --global user.email 'jbarandica26@gmail.com' (Configura el email del autor de las versiones)
+
 ESC + SHIFT + ZZ (Guarda y cierra el editor VIM)
 
 git show historia.txt (Muestra la lineas del archivo que han sido modificadas)
@@ -28,4 +29,11 @@ git log --stat (Muestra las modificaciones con mas detalle)
 git diff (Muestra las modificaciones en el archivo que no se ha guardado y hecho un commit)
 git checkout 4589bf11073bb72f73e9305dd4cff62afdabdba7 historia.txt
 	(Vuelve el archivo a la versión inidicada, pero si se hace un commit este archivo se convierte en el actual)
+
 git checkout master historia.txt (Vuelve a la vergit sion actual o master del archivo)
+git rm --cached (Elimina los archivos de staging y del proximo commit pero se mantienen en el disco duroi)^M
+git rm --force (Elimina los archvos del disco duro pero se puede acceder al registro de la existencia de los archivos y se pueden recuperar)a los archivos de staging y del proximo commit pero se mantienen en el disco duroi)^M
+git reset --hard (Boraa toda la informacion que se tiene en el staging(RAM) y perdiendo todo para siempre)a los archivos de staging y del proximo commit pero se mantienen en el disco duroi)^M
+git reset --soft (Borramos el historial y resgistros pero se guardan los cambios en el staging así se puede aplica las utlimas actualizaciones a un nuevo commit)a los archivos de staging y del proximo commit pero se mantienen en el disco duroi)^M
+git reset HEAD (Saca archivos dek staging para que los cambios no se guarden en el ultimo commit)a los archivos de staging y del proximo commit pero se mantienen en el disco duroi)^M
+
