@@ -1,14 +1,31 @@
 git status (Muestra el estado de los archivos dentro de la carpeta) 
+
 git add historia.txt (Agrega el archivo o modificaciones al sistema de versiones) 
+
 git add . (Agrega los archivos o modificaciones de estos al sistema de versiones)
+
 git commit -m 'comentario' (Agrega un comentario a las modificaciones realizadas, dejando rastro)
+
 git log (Muestra la historia de los archivos con sus commit y autores) 
+
 git config --global user.name 'Barandica' (Configura el autor de las versiones)
+
 git config --global user.email 'jbarandica26@gmail.com' (Configura el email del autor de las versiones)
 ESC + SHIFT + ZZ (Guarda y cierra el editor VIM)
+
 git show historia.txt (Muestra la lineas del archivo que han sido modificadas)
+
 git diff 4589bf11073bb72f73e9305dd4cff62afdabdba7 4589bf11073bb72f73e9305dd4cff62afdabdlsdj 
+	
 	(Compara las modificaciones en esas dos versiones)
+
 git reset 1e4053c11e24770d4181c73dcaa2b4bad364eddf --hard 
+	
 	(Borra todos los commit hechos hasta ese momento)
 
+
+git log --stat (Muestra las modificaciones con mas detalle)
+git diff (Muestra las modificaciones en el archivo que no se ha guardado y hecho un commit)
+git checkout 4589bf11073bb72f73e9305dd4cff62afdabdba7 historia.txt
+	(Vuelve el archivo a la versión inidicada, pero si se hace un commit este archivo se convierte en el actual)
+git checkout master historia.txt (Vuelve a la vergit sion actual o master del archivo)
